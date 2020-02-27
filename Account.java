@@ -6,7 +6,7 @@ public class Account {
         this.name = name;
         // valida que o balance é maior que 0.0; se não for,
         // a variável de instância balance mantém seu valor inicial padrão de 0.0
-        if (balance > 0.0) {// se o slado for valido
+        if (balance > 0.0) {// se o saldo for valido
             this.balance = balance;// o atribui a variavel de instancia balance
         }
     }
